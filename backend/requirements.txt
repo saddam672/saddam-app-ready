@@ -1,0 +1,53 @@
+# ==========================================
+# CORE FRAMEWORK & CPANEL WSGI ADAPTER
+# ==========================================
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+a2wsgi==1.10.4
+python-multipart==0.0.9
+
+# ==========================================
+# DATABASE (SQLite built-in, MySQL via PyMySQL)
+# ==========================================
+sqlalchemy==2.0.27
+pymysql==1.1.0
+alembic==1.13.1
+# Uncomment below if using PostgreSQL on cPanel:
+# psycopg2-binary==2.9.9
+
+# ==========================================
+# AUTHENTICATION & SECURITY
+# ==========================================
+python-dotenv==1.0.1
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-jose[cryptography]==3.3.0
+cryptography==42.0.2
+
+# ==========================================
+# DATA VALIDATION
+# ==========================================
+pydantic==2.6.1
+pydantic[email]==2.6.1
+email-validator==2.1.0
+
+# ==========================================
+# EXTERNAL APIs & SIGNAL ENGINE
+# ==========================================
+python-binance==1.0.19
+stripe==8.2.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ==========================================
+# WEBSOCKETS & REAL-TIME
+# ==========================================
+websockets==12.0
+python-socketio==5.11.0
+
+# ==========================================
+# RATE LIMITING & UTILITIES
+# ==========================================
+slowapi==0.1.9
+requests==2.31.0
+python-dateutil==2.8.2
